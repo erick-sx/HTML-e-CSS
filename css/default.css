@@ -1,0 +1,14 @@
+body, a, ul, label, div, span, input, img, textarea, p, h1, h2, h3, h4, h5, li {font-family: "Georgia";border:0px; list-style-type: none; resize:none; text-decoration: none; margin:0 0 0 0; padding:0 0 0 0;}
+html, body {}
+body {background: #e5e5e5;}
+.body-responsive {background-image:url("../images/content-background.jpg");background-attachment: fixed;background-position: center center;background-repeat: no-repeat;background-size:100% 100%;}
+.body-responsive-intern{background-image:url("../images/content-background-intern.jpg");background-attachment: fixed;background-position: center left;background-repeat: no-repeat;background-size:70% auto;background-color: #020202;}
+
+.width{width:1080px;min-width: 375px;} /* LARGURA QUE TU QUER PRO SITE */
+#header, #menu, #content, #footer{width:100%; float:left; text-align: center;position: static;}
+.header, .menu, .content, .footer{margin:0px auto; text-align: left !important;position: static;}
+
+/* ALTURA, BACKGROUND E ETC */
+#header{background-image: url("red-repeat-background.png");height:80px;border-bottom: 3px solid #f8f8f8;}
+#menu{height:27px;background: e1e1e1;border-bottom: 3px solid #f8f8f8;}
+#footer{background-image: url("red-repeat-background.png");border-top: 3px solid #f8f8f8; margin: 0 auto; text-align: center;}
